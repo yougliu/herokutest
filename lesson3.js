@@ -22,7 +22,7 @@ app.get('/', function (req, res, next) {
       $('.topic_title').each(function (idx, element) {
         var $element = $(element);
         items.push({
-          title: $element.attr('title'),
+          title: $element.attr('title')+"-----------------------------",
           href: $element.attr('href')
         });
       });
