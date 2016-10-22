@@ -1,1 +1,1 @@
-web: node lesson3.js
+web: node website.js
